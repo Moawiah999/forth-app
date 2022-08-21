@@ -16,18 +16,18 @@ class Myapp extends StatelessWidget {
           width: 200,
           decoration: BoxDecoration(
             color: Colors.black,
+
             // color: Colors.blue,
             borderRadius: BorderRadius.only(
-                topLeft: Radius.circular(10),
-                topRight: Radius.circular(10),
-                bottomLeft: Radius.circular(10),
-                bottomRight: Radius.circular(10)),
+              topLeft: Radius.circular(18),
+              topRight: Radius.circular(18),
+            ),
             boxShadow: [
               BoxShadow(
-                color: Color.fromARGB(255, 255, 7, 243).withOpacity(0.5),
+                color: Color.fromARGB(255, 255, 7, 243),
                 spreadRadius: 12,
-                blurRadius: 33,
-                offset: Offset(0, 0), // changes position of shadow
+                blurRadius: 0,
+                offset: Offset(3, 5),
               ),
             ],
           ),
